@@ -7,9 +7,9 @@ namespace FinalConsoleApp
 {
     public class InstructorDataMapper : IDataMapper<Instructor>
     {
-        private string path;
+        private string path;//to hold file location
 
-        public InstructorDataMapper()
+        public InstructorDataMapper()//created method for InstructorDataMapper
         {
             path = AppDomain.CurrentDomain.BaseDirectory + "Instructors.txt";
         }
